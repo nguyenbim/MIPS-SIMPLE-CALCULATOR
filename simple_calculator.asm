@@ -327,7 +327,7 @@ innhan:
 	syscall
 	li $s7,100
 	div $s6,$s7
-	mfhi $s6	    # chi lay 2 chu so sau cùng cua ket qua in ra
+	mfhi $s6	    # chi lay 2 chu so sau cÃ¹ng cua ket qua in ra
 	j splitnumber       # chuyen den ham chia ket qua thanh 2 chu so de hien thi len tung led
 	nop
 chia:
@@ -600,7 +600,7 @@ innhan1:
 	syscall
 	li $s7,100
 	div $s6,$s7
-	mfhi $s6	    # chi lay 2 chu so sau cùng cua ket qua in ra
+	mfhi $s6	    # chi lay 2 chu so sau cÃ¹ng cua ket qua in ra
 	j splitnumber1       # chuyen den ham chia ket qua thanh 2 chu so de hien thi len tung led
 	nop
 chia1:
